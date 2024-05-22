@@ -36,12 +36,4 @@ public class Pokemon {
         this.hp = hp;
     }
 
-    public void attack(String opponent){
-        System.out.println(opponent + "를(을) 공격!");
-    }
-
-    public void evovle(){
-        level++;
-        System.out.println("레벨 up!");
-    }
 }

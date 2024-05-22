@@ -2,7 +2,8 @@ package SOLID.DIP;
 
 public class PokemonGame {
     public static void main(String[] args) {
-        Trainer trainer = new Trainer();
+        Pokemon pikachu = new Pokemon();
+        Trainer trainer = new Trainer(pikachu);
         trainer.catchPokemon();
         trainer.battle();
     }
